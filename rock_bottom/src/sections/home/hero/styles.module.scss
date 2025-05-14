@@ -1,0 +1,69 @@
+@use "@/styles/tokens/colors" as *;
+
+.hero_section_container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-image: url("../../../../public/assets/smiling-BG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  margin-bottom: 30px;
+  height: 100vh;
+}
+.awareness_text{
+  margin-top: 150px;
+}
+.cta{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 25px;
+    margin: 20px  80px ;
+}
+.cell_text {
+  font-family: var(--font-arsenal);
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  margin-left: 80px;
+  margin-top: 50px;
+  color: $white;
+}
+.hero_btn {
+  background: $white;
+  color: $primary-text;
+  font-family: "Roboto";
+}
+.hero_btn:hover{
+  background-color: $black;
+  color: $white;
+}
+.hero_video_btn {
+  background: transparent;
+  color: $white;
+  font-family: "Roboto";
+}
+.hero_video_btn:hover{
+  background-color: $white;
+  color: $black;
+}
+
+.touch_line{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+  font-family: var(--font-roboto);
+  color: $white;
+  // margin-top: 250px;
+
+  .touch_2{
+    height: 2px;
+    width: 65%;
+  }
+  .touch_3{
+    margin-left: 50px;
+  }
+}

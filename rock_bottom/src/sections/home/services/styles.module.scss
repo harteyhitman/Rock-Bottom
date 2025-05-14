@@ -1,0 +1,122 @@
+@use "@/styles/tokens/colors" as *;
+
+.who_we_are {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 70px;
+  padding: 0px 100px;
+  h2 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: $primary-text;
+  }
+
+  .small_text {
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0px;
+  }
+  .non_gov {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .non_gov1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    width: 460px;
+    div {
+      font-family: Aeonik;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 150%;
+      letter-spacing: 0px;
+    }
+    p {
+      font-family: Aeonik;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 160%;
+      letter-spacing: 0px;
+      color: $color-text;
+    }
+  }
+}
+.small_line {
+  width: 37.48730468750014px;
+  height: auto;
+  border-width: 2px;
+}
+.line_cont {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.special_needs_conts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 80px;
+  gap: 50px;
+
+
+
+  .needs1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    h2 {
+      font-family: Aeonik;
+      font-weight: 700;
+      font-size: 48px;
+      width: 500px;
+
+    }
+    p {
+      font-family: Aeonik;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 160%;
+      letter-spacing: 0px;
+      color: $primary-text;
+      width: 600px;
+    }
+    .learn_more_btn {
+      background: $green-200;
+    }
+  }
+  .needs_vid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../../../../public/assets/children.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 600px;
+    border-radius: 20px;
+  }
+}
+.play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  background: $white;
+  border-radius: 100%;
+  color: $black;
+  font-size: 24px;
+}
