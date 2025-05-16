@@ -7,7 +7,7 @@ import styles from './nav-menu.module.scss'
 
 const links = [
   { name: 'About Us', href: '/About' },
-  { name: 'Volunteer ', href: '/Volunteer ' },
+  { name: 'Volunteer ', href: '/Volunteer' },
   { name: 'Login', href: '/Login' },
   { name: 'Register', href: '/Register' },
 ]
@@ -38,3 +38,5 @@ export default function NavMenu() {
     </header>
   )
 }
+
+

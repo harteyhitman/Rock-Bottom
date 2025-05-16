@@ -10,7 +10,7 @@ const Supports = () => {
         </div>
         <div className={styles.support_logo}>
             {supports.map((support) => 
-                <div className={styles.img_support}>
+                <div key={support.id} className={styles.img_support}>
                     <img key={support.id} src={support.img.src} alt="support" />
                 </div>
             )}

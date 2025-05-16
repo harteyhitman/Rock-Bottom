@@ -1,0 +1,39 @@
+@use "@/styles/tokens/colors" as *;
+
+.footer_cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px  10%;
+    margin-top: 10%;
+    background: $brown-100;
+    color: $white;
+    
+    .logo{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 20px;
+        font-weight: 600;
+        color: $white;
+    }
+    .social_media{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        font-size: 20px;
+        color: $white;
+
+        div{
+            background: #624846;
+            border-radius: 100%;
+            padding: 10px;
+            height: 30px;
+            width: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+}
+}

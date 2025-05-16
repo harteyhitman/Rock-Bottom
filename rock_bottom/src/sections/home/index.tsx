@@ -4,6 +4,10 @@ import Hero from './hero'
 import Services from './services'
 import Supports from './supports'
 import Initiatives from './initiatives'
+import Events from './events'
+import Missions from './missions'
+import Contribute from './contribute'
+import FooterSection from './footer'
 
 const LandingPage = () => {
   return (
@@ -13,6 +17,10 @@ const LandingPage = () => {
         <Services />
         <Supports />
         <Initiatives />
+        <Events />
+        <Missions />
+        <Contribute />
+        <FooterSection />
     </div>
   )
 }
