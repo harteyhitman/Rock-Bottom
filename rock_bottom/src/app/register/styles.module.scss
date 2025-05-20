@@ -1,0 +1,116 @@
+.register_cont {
+  display: flex;
+  flex-direction: column;
+  .register {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fafafa;
+    .reg_img {
+      display: flex;
+      justify-content: start;
+      align-items: start;
+      .img {
+        width: 664;
+        height: 508;
+      }
+    }
+  }
+}
+.reg_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 3rem;
+  margin-right: 24rem;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 500px;
+
+  h1 {
+    font-family: Aeonik;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+  }
+
+  p {
+    font-family: Aeonik;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #959595;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+    .form_group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+
+      label {
+        font-family: Avenir LT Pro;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0%;
+        vertical-align: middle;
+
+        color: #959595;
+      }
+
+      input {
+        padding: 0.75rem 1rem;
+        border-radius: 6px;
+        border: 1px solid #ddd;
+        background: #A6A6A61A;
+        font-size: 1rem;
+        outline: none;
+      }
+  input::placeholder {
+      color: #959595;
+    }
+    }
+      input:focus {
+        border-color: #b00020;
+        outline: none;
+        background: #fff;
+      }
+  
+    button {
+      margin-top: 1rem;
+      padding: 0.9rem;
+      background-color: #8b0000;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #a50000;
+    }
+
+    .error {
+      color: #b00020;
+      margin-top: 0.5rem;
+    }
+
+    .success {
+      color: #007e33;
+      margin-top: 0.5rem;
+    }
+  }
+}
+
+.reg_form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

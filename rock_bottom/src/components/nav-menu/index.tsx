@@ -2,14 +2,14 @@
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { motion } from 'framer-motion'
-import Button from '../buttons'
+import Button from '../../components/buttons'
 import styles from './nav-menu.module.scss'
 
 const links = [
-  { name: 'About Us', href: '/About' },
-  { name: 'Volunteer ', href: '/Volunteer' },
-  { name: 'Login', href: '/Login' },
-  { name: 'Register', href: '/Register' },
+  { name: 'About Us', href: '/about' },
+  { name: 'Volunteer ', href: '/volunteer' },
+  { name: 'Login', href: '/login' },
+  { name: 'Register', href: '/register' },
 ]
 export default function NavMenu() {
   const pathname = usePathname()
@@ -34,7 +34,9 @@ export default function NavMenu() {
           ))}
         </ul>
       </nav>
+      <Link href='/donate'>
       <Button label='Donate Now' />
+      </Link>
     </header>
   )
 }

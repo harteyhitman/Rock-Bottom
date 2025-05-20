@@ -4,7 +4,7 @@ import NavMenu from "@/components/nav-menu";
 import Link from "next/link";
 const NavBar = () => {
   return (
-    <Link href='/'>
+    <Link href='/donate'>
    
     <div className="navbar_contain px-[80px] py-[30px] flex justify-between align-center">
       <div className="logo">
