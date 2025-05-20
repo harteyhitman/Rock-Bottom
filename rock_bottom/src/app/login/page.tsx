@@ -5,7 +5,6 @@ import Image from "next/image";
 import styles from "./styles.module.scss";
 import LoginImg from "../../../public/assets/login.png"; // Replace with your login image path
 import Link from "next/link";
-import NavBar from "@/features/navs";
 
 const Login = () => {
   const [form, setForm] = useState({ email: "", password: "" });
@@ -40,7 +39,6 @@ const Login = () => {
 
   return (
     <>
-    <NavBar />
     <div className={styles.login_cont}>
       <div className={styles.login_img}>
           <Image src={LoginImg} alt="Login" className={styles.img} />

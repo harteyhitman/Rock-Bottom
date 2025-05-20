@@ -1,12 +1,10 @@
 import styles from "./styles.module.scss";
 import Image from "next/image";
 import VolunteerImg from "../../../public/assets/volunteer.png"; // Replace with your actual image path
-import NavBar from "@/features/navs";
 
 const Volunteer = () => {
   return (
     <>
-      <NavBar />
       <div className={styles.volunteer_cont}>
         <div className={styles.left}>
           <Image src={VolunteerImg} alt="Volunteer" className={styles.img} />

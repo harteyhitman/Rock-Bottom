@@ -7,12 +7,10 @@ import Initiatives from './initiatives'
 import Events from './events'
 import Missions from './missions'
 import Contribute from './contribute'
-import FooterSection from './footer'
 
 const LandingPage = () => {
   return (
     <div>
-        <NavBar />
         <Hero />
         <Services />
         <Supports />
@@ -20,7 +18,6 @@ const LandingPage = () => {
         <Events />
         <Missions />
         <Contribute />
-        <FooterSection />
     </div>
   )
 }

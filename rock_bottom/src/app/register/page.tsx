@@ -1,7 +1,6 @@
 "use client";
 
 import RegImg from "../../../public/assets/register.png";
-import NavBar from "@/features/navs";
 import styles from "./styles.module.scss";
 import Image from "next/image";
 import React, { useState } from "react";
@@ -57,7 +56,6 @@ const Register = () => {
 
   return (
     <div className={styles.register_cont}>
-      <NavBar />
       <div className={styles.register}>
         <div className={styles.reg_img}>
           <Image src={RegImg} alt="image" className={styles.img} />

@@ -1,15 +1,12 @@
-import NavBar from '@/features/navs'
 import styles from './styles.module.scss'
 import Image from 'next/image'
 import KidsImg from '../../../public/assets/joined-children.png'
 import DonateImg from '../../../public/assets/donate-hands.png'
 import Button from '@/components/buttons'
-import FooterSection from '@/sections/home/footer'
 
 const Donate = () => {
   return (
     <>
-      <NavBar />
       <div className={styles.donate_cont}>
         <section className={styles.hero}>
           <div className={styles.hero_left}>
@@ -61,7 +58,6 @@ const Donate = () => {
       </div>
     </div>
       </div>
-    <FooterSection />
     </>
   )
 }

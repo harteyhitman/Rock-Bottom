@@ -9,7 +9,6 @@ import Image from 'next/image'
 const About = () => {
   return (
     <>
-    <NavBar />
     <div className={styles.about_cont}>
       <section className={styles.about_section}>
         <div className={styles.about_left}>
@@ -120,7 +119,6 @@ const About = () => {
         </div>
       </section>
     </div>
-    <FooterSection  />
     </>
   )
 }
